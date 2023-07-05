@@ -1,0 +1,19 @@
+.button{
+    outline: none;
+    width: max-content;
+    background-color: rgb(100, 93, 93);
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition:all 0.5s ease ;
+    -webkit-transition:all 0.5s ease ;
+    -moz-transition:all 0.5s ease ;
+    -ms-transition:all 0.5s ease ;
+    -o-transition:all 0.5s ease ;
+}
+
+.button:hover{
+    background-color: rgb(74, 74, 74);
+}
